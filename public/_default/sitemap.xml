@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hentaitommy.github.io/posts/first-article/</loc>
+    <loc>http://localhost:1313/posts/first-article/</loc>
     <lastmod>2021-10-20T17:56:23+08:00</lastmod>
   </url><url>
-    <loc>https://hentaitommy.github.io/posts/%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%AF%94%E5%AF%B9%E7%AE%97%E6%B3%95/</loc>
+    <loc>http://localhost:1313/posts/%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%AF%94%E5%AF%B9%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2021-10-20T17:56:23+08:00</lastmod>
   </url><url>
-    <loc>https://hentaitommy.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2021-10-20T17:56:23+08:00</lastmod>
   </url><url>
-    <loc>https://hentaitommy.github.io/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2021-10-20T17:56:23+08:00</lastmod>
   </url><url>
-    <loc>https://hentaitommy.github.io/posts/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</loc>
+    <loc>http://localhost:1313/posts/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2021-10-20T17:56:23+08:00</lastmod>
   </url><url>
-    <loc>https://hentaitommy.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://hentaitommy.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
