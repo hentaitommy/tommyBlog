@@ -1,6 +1,6 @@
 baseURL = 'http://localhost:1313/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = 'zh_CN'
+title = 'Tommy的博客'
 theme = 'ananke'
 buildDrafts = true
 publishDir = 'public/_default'

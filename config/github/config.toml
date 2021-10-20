@@ -1,2 +1,2 @@
 baseURL = 'https://hentaitommy.github.io/'
-publishDir = 'public/_default'
+publishDir = 'public/github'

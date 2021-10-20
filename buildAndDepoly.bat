@@ -4,7 +4,7 @@ goto error
 :success
 rem build
 cd public/%1
-rem rm -rf *
+rm -rf *
 cd ../../
 hugo -e %1
 rem depoly
