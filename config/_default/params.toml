@@ -1,0 +1,94 @@
+env = "production"
+title = "ExampleSite"
+description = "ExampleSite description"
+keywords = [ "Blog", "Portfolio", "PaperMod" ]
+author = "Me"
+images = [ "<link or path of image for opengraph, twitter-cards>" ]
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = true
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+
+[assets]
+favicon = "<link / abs url>"
+favicon16x16 = "<link / abs url>"
+favicon32x32 = "<link / abs url>"
+apple_touch_icon = "<link / abs url>"
+safari_pinned_tab = "<link / abs url>"
+
+[label]
+text = "Home"
+# icon = "/apple-touch-icon.png"
+iconHeight = 35
+
+[profileMode]
+enabled = false
+title = "ExampleSite"
+subtitle = "This is subtitle"
+imageUrl = "<img location>"
+imageWidth = 120
+imageHeight = 120
+imageTitle = "my image"
+
+[[profileMode.buttons]]
+name = "Posts"
+url = "posts"
+
+[[profileMode.buttons]]
+name = "Tags"
+url = "tags"
+
+[homeInfoParams]
+Title = "Hi there 👋"
+Content = "Welcome to my blog"
+
+[[socialIcons]]
+name = "twitter"
+url = "https://twitter.com/"
+
+[[socialIcons]]
+name = "stackoverflow"
+url = "https://stackoverflow.com"
+
+[[socialIcons]]
+name = "github"
+url = "https://github.com/"
+
+[analytics.google]
+SiteVerificationTag = "XYZabc"
+
+[analytics.bing]
+SiteVerificationTag = "XYZabc"
+
+[analytics.yandex]
+SiteVerificationTag = "XYZabc"
+
+[cover]
+hidden = true
+hiddenInList = true
+hiddenInSingle = true
+
+[editPost]
+URL = "https://github.com/<path_to_repo>/content"
+Text = "Suggest Changes"
+appendFilePath = true
+
+[fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1_000
+threshold = 0.4
+minMatchCharLength = 0
+keys = [ "title", "permalink", "summary", "content" ]

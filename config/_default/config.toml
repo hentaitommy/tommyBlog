@@ -1,6 +1,33 @@
 baseURL = 'http://localhost:1313/'
-languageCode = 'zh_CN'
-title = 'Tommy的博客'
-theme = 'ananke'
-buildDrafts = true
 publishDir = 'public/_default'
+title = 'Tommy的博客'
+theme = 'alterPaperMod'
+
+enableRobotsTXT = true
+buildDrafts = true
+buildFuture = false
+buildExpired = false
+
+[minify]
+  minifyOutput = false
+  
+[[menu.main]]
+identifier = "categories"
+name = "categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "example"
+name = "example.org"
+url = "https://example.org"
+weight = 30
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]

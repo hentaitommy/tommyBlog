@@ -1,2 +1,5 @@
 baseURL = 'https://hentaitommy.github.io/'
 publishDir = 'public/github'
+
+[minify]
+  minifyOutput = true
